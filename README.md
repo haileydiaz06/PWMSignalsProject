@@ -1,4 +1,6 @@
 # PWM Signals Project
+By: Hailey Diaz
+
 Arduino-Based LED Control Using PWM Signals: Developed an Arduino-based LED project that utilizes Pulse Width Modulation (PWM) signals to control LED behavior.
 
 # Hardware Component
@@ -34,6 +36,4 @@ Arduino-Based LED Control Using PWM Signals: Developed an Arduino-based LED proj
 
 **7. Delay:** If 0 < brightness < 255, the code waits 30 milliseconds before continuing the next line of code.
   
-# By
-  Hailey Diaz 
-  
+
