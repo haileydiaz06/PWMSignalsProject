@@ -1,1 +1,34 @@
+int LEDred = 11;
+int LEDyel = 6;
+int brightness = 0;
+int fadeAmount = 5;
+void setup() {
+  pinMode(LEDred, OUTPUT);
+  pinMode(LEDyel, OUTPUT);
 
+}
+
+void loop() {
+  
+  analogWrite(LEDred, brightness);
+
+  brightness = brightness + fadeAmount;
+
+  if (brightness <= 0 || brightness >= 255)
+  {
+    fadeAmount = -fadeAmount;
+  }
+
+  delay(30);
+
+  analogWrite(LEDyel, brightness);
+
+  brightness = brightness + fadeAmount;
+
+  if (brightness <= 0 || brightness >= 255)
+  {
+    fadeAmount = -fadeAmount;
+  }
+
+  delay(30);
+}
