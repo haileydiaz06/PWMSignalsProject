@@ -14,12 +14,12 @@ Arduino-Based LED Control Using PWM Signals: Developed an Arduino-based LED proj
 - Pin 6 (~) → 27b → 330Ω Resister (27c → 17c) → jumper cable (16b → (-) terminal) → Yellow LED (16d → 17d)
 
 # Code
-1. LED Variables: The integer number assigned to each LED variables represents the Arduino pin #, with only ~ pins supporting PWM.
-2. Initial Values: brightness starts at 0 and fadeAmount is set to 5, causing the LED to initially brighten by 5 each loop.
-3. Set pins as outputs: pinMode() function sets the LED pins as outputs so the Arduino can control them. 
-4. PWM Signal: analogWrite() function sends PWM signal to control the LED's brightness from 0 to 255.
-5. Change Brightness: brightness = brightness + fadeAmount which changes the LED's brightness by 5 each loop, either increasing or decreasing depending on value of fadeAmount.
-6. Reverse Fading: The if statement checks whether brightness reaches 0 or 255 and reverses fadeAmount.
-7. Delay: If 0 < brightness < 255, the code waits 30 milliseconds before continuing the next line of code.
+**1. LED Variables:** The integer number assigned to each LED variables represents the Arduino pin #, with only ~ pins supporting PWM.
+**2. Initial Values:** brightness starts at 0 and fadeAmount is set to 5, causing the LED to initially brighten by 5 each loop.
+**3. Set pins as outputs:** pinMode() function sets the LED pins as outputs so the Arduino can control them. 
+**4. PWM Signal:** analogWrite() function sends PWM signal to control the LED's brightness from 0 to 255.
+**5. Change Brightness:** brightness = brightness + fadeAmount which changes the LED's brightness by 5 each loop, either increasing or decreasing depending on value of fadeAmount.
+**6. Reverse Fading:** The if statement checks whether brightness reaches 0 or 255 and reverses fadeAmount.
+**7. Delay:** If 0 < brightness < 255, the code waits 30 milliseconds before continuing the next line of code.
   
 
