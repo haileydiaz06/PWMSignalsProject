@@ -14,7 +14,7 @@ By: Hailey Diaz
   
 **- LED** - Light-emitting components that produce light, with their brightness controlled by the PWM signals from Arduino.
 
-# Wiring 
+# Hardware Setup 
 - GND Pin → (-) terminal of the breadboard
   
 - Pin 11 (~) → 21h → 330Ω Resister (21j → 7h) → jumper cable (6h → (-) terminal) → Red LED (6j → 7j)
