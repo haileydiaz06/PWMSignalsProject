@@ -1,4 +1,4 @@
-# PWMSignalsProject
+# PWM Signals Project
 Arduino-Based LED Control Using PWM Signals: Developed an Arduino-based LED project that utilizes Pulse Width Modulation (PWM) signals to control LED behavior.
 
 # Hardware Component
@@ -12,6 +12,8 @@ Arduino-Based LED Control Using PWM Signals: Developed an Arduino-based LED proj
 - GND Pin → (-) terminal of the breadboard
 - Pin 11 (~) → 21h → 330Ω Resister (21j → 7h) → jumper cable (6h → (-) terminal) → Red LED (6j → 7j)  
 - Pin 6 (~) → 27b → 330Ω Resister (27c → 17c) → jumper cable (16b → (-) terminal) → Yellow LED (16d → 17d)
-  
+
+# Code
+
   
 
